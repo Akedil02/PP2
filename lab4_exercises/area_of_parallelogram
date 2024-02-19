@@ -1,0 +1,9 @@
+def parallelogram_area(base_length, height):
+    area = base_length * height
+    return area
+
+base_length = float(input("Enter the length of the base of the parallelogram: "))
+height = float(input("Enter the height of the parallelogram: "))
+
+area = parallelogram_area(base_length, height)
+print("The area of the parallelogram is:", area)
